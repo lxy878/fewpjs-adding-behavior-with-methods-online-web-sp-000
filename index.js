@@ -1,4 +1,3 @@
-// Your code here
 class Cat{
   constructor(name, sex){
     this.name = name;
@@ -6,5 +5,11 @@ class Cat{
   }
   speak(){
     return `${this.name} says meow!`;
+  }
+}
+
+class Dog{
+  constructor(name, sex){
+    
   }
 }
